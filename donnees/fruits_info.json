@@ -1,0 +1,544 @@
+{
+  "fruits": [
+    {
+      "nom": "Ananas",
+      "type_img": "gif",
+      "description": "L'ananas est un fruit tropical issu d'une plante herbacée du même nom vivant à l'origine dans des zones arides. Même s'il vient d'Amérique de Sud, il est néanmoins cultivé aux Philippines, dans les Antilles, en Chine et en Thaïlande. Sous son écorce épaisse composée d'écailles de forme géométrique, se cache une chair juteuse, sucrée et parfumée de couleur jaune ou blanche. L'ananas est riche en vitamines et oligo-éléments.",
+      "famille": "Bromeliaceae",
+      "proprietes_nutritives": {
+        "calories": 50,
+        "fibres": "1.4g",
+        "vitamine_c": "47.8mg",
+        "potassium": "109mg"
+      },
+      "origine": "Amérique du Sud",
+      "saison": ["Printemps", "Été"],
+      "direction": "assets/images_fruits/Ananas/Ananas.gif"
+    },
+    {
+      "nom": "Avocat",
+      "type_img": "png",
+      "description": "L'avocat est un fruit exotique issu de l'avocatier, un arbre cultivé en Amérique du Sud ainsi qu'en Amérique Centrale. De couleur verte ou noire et de forme ovale, il recèle sous sa peau une chair verte et onctueuse ainsi qu'un gros noyau. Riche en antioxydants et en lipides, il se consomme cru ou en guacamole, écrasé et agrémenté d'épices.",
+      "famille": "Lauraceae",
+      "proprietes_nutritives": {
+        "calories": 160,
+        "fibres": "6.7g",
+        "vitamine_e": "2.07mg",
+        "potassium": "485mg"
+      },
+      "origine": "Mexique et Amérique Centrale",
+      "saison": ["Automne", "Hiver"],
+      "direction": "assets/images_fruits/Avocat/Avocat.png"
+    },
+    {
+      "nom": "Banane",
+      "type_img": "jpg",
+      "description": "La banane est un fruit provenant d'une plante herbacée géante appelée bananier. Cultivée dans de nombreux pays, elle est essentiellement exportée par l'Afrique, l'Amérique Centrale et l'Amérique Latine. Il existe deux types de bananes, la banane dessert et la banane à cuire ou plantain. La première, sucrée et de couleur jaune, se consomme crue et la seconde, amère et verte se consomme cuite.",
+      "famille": "Musaceae",
+      "proprietes_nutritives": {
+        "calories": 89,
+        "fibres": "2.6g",
+        "vitamine_b6": "0.4mg",
+        "potassium": "358mg"
+      },
+      "origine": "Asie du Sud-Est",
+      "saison": ["Toute l'année"],
+      "direction": "assets/images_fruits/Banane/Banane.jpg"
+    },
+    {
+      "nom": "Cacao",
+      "type_img": "jpg",
+      "description": "Graine dont on tire le chocolat, enveloppée dans une pulpe blanche",
+      "famille": "Malvaceae",
+      "proprietes_nutritives": {
+        "calories": 228,
+        "fibres": "9g",
+        "fer": "13.9mg",
+        "magnésium": "499mg"
+      },
+      "origine": "Amérique du Sud (région amazonienne)",
+      "saison": ["Toute l'année"],
+      "direction": "assets/images_fruits/Cacao/Cacao.jpg"
+    },
+    {
+      "nom": "Cajou",
+      "type_img": "jpg",
+      "description": "Noix en forme de croissant attachée à un pédoncule charnu (pomme de cajou)",
+      "famille": "Anacardiaceae",
+      "proprietes_nutritives": {
+        "calories": 553,
+        "proteines": "18g",
+        "lipides": "43.8g",
+        "glucides": "30.2g"
+      },
+      "origine": "Brésil",
+      "saison": ["Toute l'année"],
+      "direction": "assets/images_fruits/Cajou/Cajou.jpg"
+    },
+    {
+      "nom": "Citron",
+      "type_img": "jpg",
+      "description": "Le citron est un agrume provenant du citronnier qui possède une saveur particulièrement acidulée. De couleur jaune, ce fruit ovale à pépins est un véritable concentré de vitamine C. Il possède également de nombreuses applications notamment en gastronomie ou dans le domaine médical. ",
+      "famille": "Rutaceae",
+      "proprietes_nutritives": {
+        "calories": 29,
+        "vitamine_c": "53mg",
+        "acide_folique": "11µg",
+        "potassium": "138mg"
+      },
+      "origine": "Asie",
+      "saison": ["Hiver"],
+      "direction": "assets/images_fruits/Citron/Citron.jpg"
+    },
+    {
+      "nom": "Fraise",
+      "type_img": "png",
+      "description": "La fraise est un fruit issu d'une plante herbacée nommée fraisier. Originaire à la fois du Chili et de l'Amérique, elle est cultivée dans la plupart du monde à l'heure actuelle. De forme ovoïde et de couleur rouge, la fraise est constellée de minuscules alvéoles remplies de graines jaunes ou parfois brunes. Riche en vitamines et en fibres, sa chair est tendre, juteuse et sucrée et se consomme crue ou cuite.",
+      "famille": "Rosaceae",
+      "proprietes_nutritives": {
+        "calories": 32,
+        "fibres": "2g",
+        "vitamine_c": "58.8mg",
+        "manganèse": "0.6mg"
+      },
+      "origine": "Europe et Amériques",
+      "saison": ["Printemps", "Été"],
+      "direction": "assets/images_fruits/Fraise/Fraise.png"
+    },
+    {
+      "nom": "Goyave",
+      "type_img": "jpg",
+      "description": "Fruit tropical ovale à chair rose ou blanche parsemée de petites graines",
+      "famille": "Myrtaceae",
+      "proprietes_nutritives": {
+        "calories": 68,
+        "fibres": "5.4g",
+        "vitamine_c": "228.3mg",
+        "potassium": "417mg"
+      },
+      "origine": "Amérique Centrale",
+      "saison": ["Automne", "Hiver"],
+      "direction": "assets/images_fruits/Goyave/Goyave.jpg"
+    },
+    {
+      "nom": "Mangue",
+      "type_img": "jpg",
+      "description": "Fruit tropical charnu à peau jaune-rouge et chair orange sucrée",
+      "famille": "Anacardiaceae",
+      "proprietes_nutritives": {
+        "calories": 60,
+        "fibres": "1.6g",
+        "vitamine_c": "36.4mg",
+        "vitamine_a": "1262IU"
+      },
+      "origine": "Inde",
+      "saison": ["Été"],
+      "direction": "assets/images_fruits/Mangue/Mangue.jpg"
+    },
+    {
+      "nom": "Melon",
+      "type_img": "jpg",
+      "description": "Gros fruit rond à chair orange ou verte sucrée et juteuse",
+      "famille": "Cucurbitaceae",
+      "proprietes_nutritives": {
+        "calories": 34,
+        "fibres": "0.9g",
+        "vitamine_c": "36.7mg",
+        "potassium": "267mg"
+      },
+      "origine": "Afrique",
+      "saison": ["Été"],
+      "direction": "assets/images_fruits/Melon/Melon.jpg"
+    },
+    {
+      "nom": "Noisette",
+      "type_img": "jpg",
+      "description": "Fruit à coque du noisetier, riche en huiles et protéines",
+      "famille": "Betulaceae",
+      "proprietes_nutritives": {
+        "calories": 628,
+        "proteines": "15g",
+        "lipides": "60.8g",
+        "glucides": "16.7g"
+      },
+      "origine": "Europe et Asie occidentale",
+      "saison": ["Automne"],
+      "direction": "assets/images_fruits/Noisette/Noisette.jpg"
+    },
+    {
+      "nom": "Noix de coco",
+      "type_img": "png",
+      "description": "Grosse drupe à enveloppe fibreuse, coque dure et chair blanche",
+      "famille": "Arecaceae",
+      "proprietes_nutritives": {
+        "calories": 354,
+        "fibres": "9g",
+        "fer": "2.4mg",
+        "manganèse": "1.5mg"
+      },
+      "origine": "Régions tropicales",
+      "saison": ["Toute l'année"],
+      "direction": "assets/images_fruits/Noix de coco/Noix de coco.png"
+    },
+    {
+      "nom": "Orange",
+      "type_img": "jpg",
+      "description": "Agrume rond à peau orange et chair juteuse divisée en quartiers",
+      "famille": "Rutaceae",
+      "proprietes_nutritives": {
+        "calories": 47,
+        "fibres": "2.4g",
+        "vitamine_c": "53.2mg",
+        "calcium": "40mg"
+      },
+      "origine": "Chine",
+      "saison": ["Hiver"],
+      "direction": "assets/images_fruits/Orange/Orange.jpg"
+    },
+    {
+      "nom": "Papaye",
+      "type_img": "jpg",
+      "description": "Fruit tropical allongé à chair orange et graines noires",
+      "famille": "Caricaceae",
+      "proprietes_nutritives": {
+        "calories": 43,
+        "fibres": "1.7g",
+        "vitamine_c": "61.8mg",
+        "folate": "37µg"
+      },
+      "origine": "Mexique et Amérique Centrale",
+      "saison": ["Toute l'année"],
+      "direction": "assets/images_fruits/Papaye/Papaye.jpg"
+    },
+    {
+      "nom": "Pastèque",
+      "type_img": "jpg",
+      "description": "Gros fruit rond à écorce verte et chair rouge très juteuse",
+      "famille": "Cucurbitaceae",
+      "proprietes_nutritives": {
+        "calories": 30,
+        "fibres": "0.4g",
+        "vitamine_c": "8.1mg",
+        "lycopène": "4868µg"
+      },
+      "origine": "Afrique",
+      "saison": ["Été"],
+      "direction": "assets/images_fruits/Pastèque/Pastèque.jpg"
+    },
+    {
+      "nom": "Pomme",
+      "type_img": "jpg",
+      "description": "Fruit rond et croquant de couleur variable à chair blanche juteuse",
+      "famille": "Rosaceae",
+      "proprietes_nutritives": {
+        "calories": 52,
+        "fibres": "2.4g",
+        "vitamine_c": "4.6mg",
+        "potassium": "107mg"
+      },
+      "origine": "Asie Centrale",
+      "saison": ["Automne"],
+      "direction": "assets/images_fruits/Pomme/Pomme.jpg"
+    },
+    {
+      "nom": "Raisin",
+      "type_img": "jpg",
+      "description": "Petite baie poussant en grappe, de couleur variable",
+      "famille": "Vitaceae",
+      "proprietes_nutritives": {
+        "calories": 69,
+        "fibres": "0.9g",
+        "vitamine_c": "3.2mg",
+        "vitamine_k": "14.6µg"
+      },
+      "origine": "Moyen-Orient",
+      "saison": ["Automne"],
+      "direction": "assets/images_fruits/Raisin/Raisin.jpg"
+    },
+    {
+      "nom": "Tomate",
+      "type_img": "jpg",
+      "description": "Fruit rouge ou jaune à chair juteuse et graines nombreuses",
+      "famille": "Solanaceae",
+      "proprietes_nutritives": {
+        "calories": 18,
+        "fibres": "1.2g",
+        "vitamine_c": "13.7mg",
+        "lycopène": "2573µg"
+      },
+      "origine": "Amérique du Sud",
+      "saison": ["Été"],
+      "direction": "assets/images_fruits/Tomate/Tomate.jpg"
+    },
+    {
+      "nom": "Kiwi",
+      "type_img": "jpg",
+      "description": "Le kiwi est un fruit ovale à peau marron duveteuse et chair verte parsemée de petites graines noires. Originaire de Chine mais largement cultivé en Nouvelle-Zélande, il est riche en vitamine C et possède une saveur acidulée et sucrée. Sa texture est à la fois tendre et croquante grâce à ses petites graines.",
+      "famille": "Actinidiaceae",
+      "proprietes_nutritives": {
+        "calories": 61,
+        "fibres": "3g",
+        "vitamine_c": "92.7mg",
+        "potassium": "312mg"
+      },
+      "origine": "Chine",
+      "saison": ["Automne", "Hiver"],
+      "direction": "assets/images_fruits/Kiwi/Kiwi.jpg"
+    },
+    {
+      "nom": "Grenade",
+      "type_img": "jpg",
+      "description": "La grenade est un fruit sphérique à écorce coriace rouge-orangé contenant de nombreuses graines entourées d'une pulpe juteuse et acidulée. Ces graines, appelées arilles, sont regroupées en compartiments séparés par des membranes blanches. Riche en antioxydants, la grenade est consommée fraîche ou en jus.",
+      "famille": "Lythraceae",
+      "proprietes_nutritives": {
+        "calories": 83,
+        "fibres": "4g",
+        "vitamine_c": "10.2mg",
+        "vitamine_k": "16.4µg"
+      },
+      "origine": "Iran et région méditerranéenne",
+      "saison": ["Automne"],
+      "direction": "assets/images_fruits/Grenade/Grenade.jpg"
+    },
+    {
+      "nom": "Myrtille",
+      "type_img": "png",
+      "description": "La myrtille est une petite baie bleu foncé à la chair juteuse et sucrée. Sa peau est recouverte d'une fine pellicule cireuse blanchâtre appelée pruine. Extrêmement riche en antioxydants, la myrtille pousse sur de petits arbustes dans les régions tempérées et est réputée pour ses bienfaits pour la vision.",
+      "famille": "Ericaceae",
+      "proprietes_nutritives": {
+        "calories": 57,
+        "fibres": "2.4g",
+        "vitamine_c": "9.7mg",
+        "vitamine_k": "19.3µg"
+      },
+      "origine": "Amérique du Nord",
+      "saison": ["Été"],
+      "direction": "assets/images_fruits/Myrtille/Myrtille.png"
+    },
+    {
+      "nom": "Litchi",
+      "type_img": "png",
+      "description": "Le litchi est un fruit tropical ovale à la coque rouge rugueuse qui, une fois pelée, révèle une chair blanche translucide, juteuse et parfumée. Au centre se trouve un noyau brun non comestible. Sa texture est ferme mais tendre et son goût sucré rappelle légèrement la rose.",
+      "famille": "Sapindaceae",
+      "proprietes_nutritives": {
+        "calories": 66,
+        "fibres": "1.3g",
+        "vitamine_c": "71.5mg",
+        "cuivre": "0.2mg"
+      },
+      "origine": "Chine",
+      "saison": ["Été"],
+      "direction": "assets/images_fruits/Litchi/Litchi.png"
+    },
+    {
+      "nom": "Figue",
+      "type_img": "jpg",
+      "description": "La figue est un fruit en forme de poire à la peau fine et souple, de couleur verte à violette selon les variétés. Sa chair rouge ou ambrée est sucrée et contient de nombreuses petites graines croquantes. Riche en fibres et minéraux, elle se consomme fraîche ou séchée.",
+      "famille": "Moraceae",
+      "proprietes_nutritives": {
+        "calories": 74,
+        "fibres": "2.9g",
+        "potassium": "232mg",
+        "calcium": "35mg"
+      },
+      "origine": "Moyen-Orient",
+      "saison": ["Été", "Automne"],
+      "direction": "assets/images_fruits/Figue/Figue.jpg"
+    },
+    {
+      "nom": "Kaki",
+      "type_img": "jpg",
+      "description": "Le kaki est un fruit rond ou ovale à la peau fine et brillante de couleur orange vif. Sa chair, orangée et très sucrée quand le fruit est bien mûr, peut être ferme ou fondante selon les variétés. Sa saveur rappelle un mélange de miel et d'abricot. Il contient parfois des pépins plats et ovales.",
+      "famille": "Ebenaceae",
+      "proprietes_nutritives": {
+        "calories": 118,
+        "fibres": "3.6g",
+        "vitamine_a": "2733IU",
+        "manganèse": "0.6mg"
+      },
+      "origine": "Chine",
+      "saison": ["Automne"],
+      "direction": "assets/images_fruits/Kaki/Kaki.jpg"
+    },
+    {
+      "nom": "Mûre",
+      "type_img": "jpg",
+      "description": "La mûre est une petite baie composée, formée par l'agrégation de minuscules drupes juteuses. De couleur noir brillant à maturité, elle possède une saveur douce-acidulée et pousse sur des arbustes épineux. Riche en antioxydants, elle est utilisée fraîche ou en confiture.",
+      "famille": "Rosaceae",
+      "proprietes_nutritives": {
+        "calories": 43,
+        "fibres": "5.3g",
+        "vitamine_c": "21mg",
+        "vitamine_k": "19.8µg"
+      },
+      "origine": "Europe et Amérique du Nord",
+      "saison": ["Été"],
+      "direction": "assets/images_fruits/Mûre/Mûre.jpg"
+    },
+    {
+      "nom": "Pitaya",
+      "type_img": "jpg",
+      "description": "La pitaya ou fruit du dragon est un fruit exotique à l'écorce rose vif ou jaune ornée d'écailles vertes. Sa chair, blanche ou rouge selon les variétés, est ponctuée de minuscules graines noires croquantes. Son goût subtil rappelle celui du kiwi et de la poire, avec une texture fondante.",
+      "famille": "Cactaceae",
+      "proprietes_nutritives": {
+        "calories": 60,
+        "fibres": "1.9g",
+        "vitamine_c": "9mg",
+        "fer": "1.9mg"
+      },
+      "origine": "Amérique Centrale",
+      "saison": ["Été"],
+      "direction": "assets/images_fruits/Pitaya/Pitaya.jpg"
+    },
+    {
+      "nom": "Carambole",
+      "type_img": "jpg",
+      "description": "La carambole est un fruit exotique jaune-vert qui, coupé en tranches, révèle une forme d'étoile à cinq branches. Sa chair croquante et juteuse offre une saveur acidulée rappelant un mélange de pomme, de raisin et d'agrume. Elle se consomme fraîche ou en décoration culinaire.",
+      "famille": "Oxalidaceae",
+      "proprietes_nutritives": {
+        "calories": 31,
+        "fibres": "2.8g",
+        "vitamine_c": "34.4mg",
+        "potassium": "133mg"
+      },
+      "origine": "Asie du Sud-Est",
+      "saison": ["Hiver"],
+      "direction": "assets/images_fruits/Carambole/Carambole.jpg"
+    },
+    {
+      "nom": "Datte",
+      "type_img": "jpg",
+      "description": "La datte est le fruit du palmier dattier, de forme oblongue et de couleur brun-doré à maturité. Sa chair, très sucrée et moelleuse, entoure un noyau allongé. Extrêmement énergétique, elle est consommée fraîche ou séchée et constitue un aliment de base dans les régions désertiques.",
+      "famille": "Arecaceae",
+      "proprietes_nutritives": {
+        "calories": 282,
+        "fibres": "8g",
+        "potassium": "656mg",
+        "magnésium": "54mg"
+      },
+      "origine": "Moyen-Orient",
+      "saison": ["Automne"],
+      "direction": "assets/images_fruits/Datte/Datte.jpg"
+    },
+    {
+      "nom": "Pêche",
+      "type_img": "jpg",
+      "description": "La pêche est un fruit charnu à la peau veloutée, de couleur jaune-orangé teintée de rouge. Sa chair juteuse et parfumée, blanche ou jaune, adhère plus ou moins au noyau selon les variétés. Son goût sucré et légèrement acidulé en fait un fruit d'été très apprécié.",
+      "famille": "Rosaceae",
+      "proprietes_nutritives": {
+        "calories": 39,
+        "fibres": "1.5g",
+        "vitamine_c": "6.6mg",
+        "vitamine_a": "326IU"
+      },
+      "origine": "Chine",
+      "saison": ["Été"],
+      "direction": "assets/images_fruits/Pêche/Pêche.jpg"
+    },
+    {
+      "nom": "Cerise",
+      "type_img": "jpg",
+      "description": "La cerise est un petit fruit rond à la peau lisse et brillante, rouge vif à presque noir selon les variétés. Sa chair juteuse et sucrée entoure un noyau dur. Fruit emblématique du début de l'été, elle se décline en variétés douces ou plus acidulées.",
+      "famille": "Rosaceae",
+      "proprietes_nutritives": {
+        "calories": 50,
+        "fibres": "1.6g",
+        "vitamine_c": "7mg",
+        "potassium": "222mg"
+      },
+      "origine": "Asie Mineure",
+      "saison": ["Été"],
+      "direction": "assets/images_fruits/Cerise/Cerise.jpg"
+    },
+    {
+      "nom": "Mandarine",
+      "type_img": "jpg",
+      "description": "La mandarine est un petit agrume à la peau orange vif, fine et facile à peler. Sa chair juteuse, divisée en quartiers, est sucrée et moins acide que l'orange. Riche en vitamine C, elle est particulièrement consommée en hiver et appréciée pour sa facilité à être mangée.",
+      "famille": "Rutaceae",
+      "proprietes_nutritives": {
+        "calories": 53,
+        "fibres": "1.8g",
+        "vitamine_c": "26.7mg",
+        "vitamine_a": "681IU"
+      },
+      "origine": "Chine",
+      "saison": ["Hiver"],
+      "direction": "assets/images_fruits/Mandarine/Mandarine.jpg"
+    },
+    {
+      "nom": "Abricot",
+      "type_img": "jpg",
+      "description": "L'abricot est un petit fruit charnu à la peau duvetée de couleur orange-doré, parfois teintée de rouge. Sa chair tendre et juteuse, de couleur orangée, entoure un noyau contenant une amande amère. Son goût sucré et légèrement acidulé en fait un fruit d'été très apprécié.",
+      "famille": "Rosaceae",
+      "proprietes_nutritives": {
+        "calories": 48,
+        "fibres": "2g",
+        "vitamine_a": "1926IU",
+        "potassium": "259mg"
+      },
+      "origine": "Chine",
+      "saison": ["Été"],
+      "direction": "assets/images_fruits/Abricot/Abricot.jpg"
+    },
+    {
+      "nom": "Poire",
+      "type_img": "png",
+      "description": "La poire est un fruit charnu à la forme caractéristique, arrondie à la base et s'affinant vers le pédoncule. Sa peau, de couleur verte, jaune ou rousse selon les variétés, recouvre une chair blanche, juteuse et sucrée. Croquante ou fondante selon sa maturité, elle contient de petites graines au centre.",
+      "famille": "Rosaceae",
+      "proprietes_nutritives": {
+        "calories": 57,
+        "fibres": "3.1g",
+        "vitamine_c": "4.3mg",
+        "cuivre": "0.1mg"
+      },
+      "origine": "Europe et Asie",
+      "saison": ["Automne", "Hiver"],
+      "direction": "assets/images_fruits/Poire/Poire.png"
+    },
+    {
+      "nom": "Kumquat",
+      "type_img": "jpg",
+      "description": "Le kumquat est un petit agrume ovale de la taille d'une olive, à la peau orange vif, fine et comestible. Sa chair, juteuse et acidulée, se consomme avec la peau qui est paradoxalement plus sucrée. Cette particularité en fait un fruit d'hiver original, souvent consommé entier ou confit.",
+      "famille": "Rutaceae",
+      "proprietes_nutritives": {
+        "calories": 71,
+        "fibres": "6.5g",
+        "vitamine_c": "43.9mg",
+        "calcium": "62mg"
+      },
+      "origine": "Chine",
+      "saison": ["Hiver"],
+      "direction": "assets/images_fruits/Kumquat/Kumquat.jpg"
+    },
+    {
+      "nom": "Coing",
+      "type_img": "jpg",
+      "description": "Le coing est un fruit piriforme ou maliforme à la peau jaune doré couverte d'un fin duvet. Sa chair, ferme et granuleuse, est très parfumée mais astringente et acide crue. Il se consomme donc généralement cuit, en compote, gelée ou pâte de fruit où son arôme intense se développe pleinement.",
+      "famille": "Rosaceae",
+      "proprietes_nutritives": {
+        "calories": 57,
+        "fibres": "1.9g",
+        "vitamine_c": "15mg",
+        "cuivre": "0.1mg"
+      },
+      "origine": "Caucase et Asie Mineure",
+      "saison": ["Automne"],
+      "direction": "assets/images_fruits/Coing/Coing.jpg"
+    },
+    {
+      "nom": "Cassis",
+      "type_img": "jpg",
+      "description": "Le cassis est une petite baie noire brillante poussant en grappes. Son goût puissant et acidulé, légèrement amer, en fait un fruit apprécié en pâtisserie et pour la fabrication de liqueurs. Extrêmement riche en vitamine C et en antioxydants, il est cultivé principalement dans les régions tempérées.",
+      "famille": "Grossulariaceae",
+      "proprietes_nutritives": {
+        "calories": 63,
+        "fibres": "4.3g",
+        "vitamine_c": "181mg",
+        "fer": "1.5mg"
+      },
+      "origine": "Europe du Nord",
+      "saison": ["Été"],
+      "direction": "assets/images_fruits/Cassis/Cassis.jpg"
+    }
+  ]
+}

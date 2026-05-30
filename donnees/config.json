@@ -1,0 +1,38 @@
+{
+  "application": {
+    "nom": "Reconnaissance de Fruits",
+    "version": "1.0.0",
+    "langue": "fr_FR",
+    "theme": "bleu_noir",
+    "port_camera": 0
+  },
+  "modele": {
+    "taille_image": [64, 64],
+    "batch_size": 32,
+    "epochs": 20,
+    "validation_split": 0.2,
+    "chemin_modele": "donnees/modele_fruits.h5",
+    "chemin_etiquettes": "donnees/etiquettes.pkl"
+  },
+  "entrainement": {
+    "nombre_images_par_classe": 60,
+    "augmentation": {
+      "rotation_range": 20,
+      "width_shift_range": 0.2,
+      "height_shift_range": 0.2,
+      "shear_range": 0.2,
+      "zoom_range": 0.2,
+      "horizontal_flip": true
+    }
+  },
+  "interface": {
+    "largeur": 1280,
+    "hauteur": 800,
+    "seuil_confiance": 0.7,
+    "delai_synthese_vocale": 3
+  },
+  "donnees": {
+    "dossier_dataset": "dataset",
+    "fichier_fruits": "donnees/fruits_info.json"
+  }
+}
